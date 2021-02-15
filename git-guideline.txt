@@ -4,3 +4,4 @@ git status:             Displays paths that have differences between the index f
                     paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git.
 git add <file>:         This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.
 git rm --cached <file>: Remove files matching pathspec from the index, or from the working tree and the index.
+git log --oneline:      Show log with one line.
