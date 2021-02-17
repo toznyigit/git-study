@@ -11,13 +11,14 @@ git checkout <head-position>:           Updates files in the working tree to mat
 git revert:                             Given one or more existing commits, revert the changes that the related patches introduce, 
                                 and record some new commits that record them.
 git reset:                              In the first three forms, copy entries from <tree-ish> to the index. In the last form, 
-<<<<<<< HEAD
                                 set the current branch head (HEAD) to <commit>, optionally modifying index and working tree to match.
 git branch  <new-branch>:               Create new branch as <new-branch>.
             -a:                         Checks all branches.
             -d <branch>:                Delete given branch.
             -b <new-branch>:            Create new branch and switch to it.                   
-git merge <branch>:                     Merge <branch> with current one. 
-=======
-                                set the current branch head (HEAD) to <commit>, optionally modifying index and working tree to match.
->>>>>>> new-feature
+git merge <branch>:                     Merge <branch> with current one.
+git push <url> <branch>:                Push repository to github.
+git clone <url>:                        Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository
+                                and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.
+
+
