@@ -1,8 +1,14 @@
-git init:               This command creates an empty Git repository - basically a .git directory
-git commit -m "<message>":             Create a new commit containing the current contents of the index and the given log message describing the changes.
-git status:             Displays paths that have differences between the index file and the current HEAD commit, 
-                    paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git.
-git add <file>:         This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.
-git rm --cached <file>: Remove files matching pathspec from the index, or from the working tree and the index.
-git log --oneline:      Show log with one line.
-git checkout:           Updates files in the working tree to match the version in the index or the specified tree.
+git init:                               This command creates an empty Git repository - basically a .git directory
+git commit -m "<message>":              Create a new commit containing the current contents of the index and the given log message describing the changes.
+git status:                             Displays paths that have differences between the index file and the current HEAD commit, 
+                                paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git.
+git add <file>:                         This command updates the index using the current content found in the working tree, 
+                                to prepare the content staged for the next commit.
+git rm --cached <file>:                 Remove files matching pathspec from the index, or from the working tree and the index.
+git log --oneline:                      Show log with one line.
+git checkout <head-position>:           Updates files in the working tree to match the version in the index or the specified tree.
+                                #   head-position provided by yellow label which can be found begining of line. 'master' label can be used for head-position.
+git revert:                             Given one or more existing commits, revert the changes that the related patches introduce, 
+                                and record some new commits that record them.
+git reset:                              In the first three forms, copy entries from <tree-ish> to the index. In the last form, 
+                                set the current branch head (HEAD) to <commit>, optionally modifying index and working tree to match.
