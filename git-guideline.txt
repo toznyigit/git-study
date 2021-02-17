@@ -15,4 +15,5 @@ git reset:                              In the first three forms, copy entries f
 git branch  <new-branch>:               Create new branch as <new-branch>.
             -a:                         Checks all branches.
             -d <branch>:                Delete given branch.
-            -b <new-branch>:            Create new branch and switch to it.                    
+            -b <new-branch>:            Create new branch and switch to it.                   
+git merge <branch>:                     Merge <branch> with current one. 
