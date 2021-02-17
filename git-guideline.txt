@@ -12,5 +12,7 @@ git revert:                             Given one or more existing commits, reve
                                 and record some new commits that record them.
 git reset:                              In the first three forms, copy entries from <tree-ish> to the index. In the last form, 
                                 set the current branch head (HEAD) to <commit>, optionally modifying index and working tree to match.
-git branch <new-branch>:                Create new branch as <new-branch>.
-git branch -a:                          Checks all branches.                     
+git branch  <new-branch>:               Create new branch as <new-branch>.
+            -a:                         Checks all branches.
+            -d <branch>:                Delete given branch.
+            -b <new-branch>:            Create new branch and switch to it.                    
