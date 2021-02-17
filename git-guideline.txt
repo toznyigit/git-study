@@ -20,5 +20,6 @@ git merge <branch>:                     Merge <branch> with current one.
 git push <url> <branch>:                Push repository to github.
 git clone <url>:                        Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository
                                 and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.
+git pull <url> <branch>:                Incorporates changes from a remote repository into the current branch.
 
 
